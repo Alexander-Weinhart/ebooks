@@ -1,0 +1,325 @@
+/*had to use the vibe coder for the tedious SCSS work. It's done a good job so far. I'm manually editing this file from now on.*/
+html {
+
+}
+
+body#top {
+
+	.wrapper {
+
+		&.row0 {
+
+			#topbar {
+
+				.fl_left {
+
+					ul.nospace {
+
+						li {
+
+							i.fa {
+
+								&.fa-envelope-o {
+
+								}
+							}
+						}
+					}
+				}
+
+				.fl_right {
+
+					ul.nospace {
+
+						li {
+
+							a {
+
+								i.fa {
+
+									&.fa-lg {
+
+									}
+
+									&.fa-home {
+
+									}
+								}
+							}
+
+							form.search {
+
+								input {
+
+								}
+
+								button {
+
+									i.fa-search {
+
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		&.row1 {
+
+			header#header {
+
+				#logo {
+
+					h1 {
+
+						a {
+
+						}
+					}
+				}
+
+				nav#mainav {
+
+					ul.clear {
+
+						li {
+
+							a {
+
+								&.drop {
+
+								}
+							}
+
+							ul {
+
+								li {
+
+									a {
+
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		&.row3 {
+
+			main {
+
+				.content {
+
+					#container {
+
+						#mainContent {
+
+							p {
+
+								&.red {
+
+									strong {
+
+									}
+								}
+
+								a {
+
+								}
+							}
+
+							span.style32 {
+
+								br {
+
+								}
+							}
+
+							table {
+
+								tr {
+
+									td {
+
+										a {
+
+											&.style42 {
+
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+
+				.clear {
+
+				}
+			}
+		}
+
+		&.row4 {
+
+			footer#footer {
+
+				.one_third {
+
+					&.first {
+
+					}
+
+					h6.heading {
+
+					}
+
+					ul.nospace.btmspace-30.linklist.contact {
+
+						li {
+
+							i.fa {
+
+								&.fa-map-marker {
+
+								}
+
+								&.fa-envelope-o {
+
+								}
+							}
+
+							address {
+
+							}
+						}
+					}
+
+					p {
+
+						a {
+
+						}
+					}
+
+					img {
+
+					}
+				}
+			}
+		}
+
+		&.row5 {
+
+			#copyright {
+
+				p {
+
+					span {
+
+						a {
+
+						}
+					}
+
+					br {
+
+					}
+
+					&.fl_left {
+
+						a {
+
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.bgded.overlay {
+
+		#breadcrumb {
+
+			#breadcrumbs {
+
+				a {
+
+				}
+			}
+		}
+	}
+
+	a#backtotop {
+
+		i.fa-chevron-up {
+
+		}
+	}
+}
+
+// Navigation dropdown classes (from nav.js)
+.core-nav {
+
+	.dropdown {
+
+		&.dd-selected {
+
+		}
+
+		.dd-text {
+
+			h3 {
+
+			}
+		}
+
+		#dd-menu {
+
+			a {
+
+				h3 {
+
+				}
+			}
+		}
+	}
+}
+
+// Placeholder elements
+#navbar-plh {
+
+}
+
+#footer-plh {
+
+}
+
+// Utility classes
+.hoc {
+
+}
+
+.clear {
+
+}
+
+.fl_left {
+
+}
+
+.fl_right {
+
+}
+
+.nospace {
+
+}
+
+.btmspace-30 {
+
+}
